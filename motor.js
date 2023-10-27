@@ -19,7 +19,7 @@ const nm_update = function(){
     let nm = document.getElementById("nm").value;
     let sobreNm = document.getElementById("sobre_nm").value;
 
-    // Checador de Inputs
+    // Checador
     if (nm.trim() != ""){
         document.getElementById("nm_completo").textContent = "Nome Completo: "+nm+" "+sobreNm;
         document.getElementById("nm_catalogo").textContent = "Nome Catálogo: "+sobreNm.toUpperCase()+" "+nm;
@@ -30,7 +30,7 @@ const nm_update = function(){
     }
 }
 
-// Adição e Remoção da cor Vermelha CSS
+//Erros
 const checker = function(){
     let nm = document.getElementById("nm").value;
     let sobreNm = document.getElementById("sobre_nm").value;
