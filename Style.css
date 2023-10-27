@@ -1,0 +1,66 @@
+.txtFont{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.centered{
+   width: 25%;
+   margin-left: 35%;
+   margin-right: 35%;
+   border: solid black 1.5px;
+   border-radius: 10px;
+   height: 225px;
+}
+
+.inputDescription{
+    width: 100%;
+    margin: 0%;
+}
+
+.inputBox{
+    margin: 1% 10% 1% 1%;
+    width: 98%;
+    background-color: rgba(255,255,255,0.7);
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 98%;
+    font-size: 17px;
+}
+
+
+.btnEnviar{
+    background-color: rgb(65, 66, 66);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+    width: 35%;
+    margin: 2% 38% 7% 32%;
+}
+
+.inputDesign{
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+    background-color: rgba(200, 200, 200, 0.05);
+    width: 99%;
+}
+
+.inputDesign:hover{
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.125);
+}
+
+.inputDesign:focus{
+    box-shadow: 0px 0px 6px 2px rgba(128, 128, 255, 0);
+    outline: none;
+    background-color: rgba(125, 125, 255, 0);
+    
+}
+
+.erro{
+    outline: none;
+    background-color: rgba(255, 100, 100, 0.5);
+    border-bottom: solid 1px red;
+}
